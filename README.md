@@ -21,7 +21,7 @@ Types of Programming languages
 1. Digital subscriber line (DSL)
 2. Cable internet
 3. Fiber optic
-4. Satellite internet
+4. Satelite internet
 5. Wireless
 6. Broadband over Power lines (BPL)
 
