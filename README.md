@@ -82,10 +82,12 @@ Software architecture is the blueprint of building software. It shows the overal
 
 ### Flow Chart
 
-<img src="./sampleFlowChart.drawio.png" alt="FlowChart">
+- create a flow chart for addition of two number.
+
+<img src="./sampleFlowChart.drawio.png" alt="FlowChart" style="background-color:grey;">
 
 ### Flash assignment
 
-- create flow chart for creating a bank account
+- create flow chart for creating a bank account.
 
-<img src="./createBankAccount.drawio.png" alt="FlowChart">
+<img src="./createBankAccount.drawio.png" alt="FlowChart" style="background-color:grey;">
