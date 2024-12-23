@@ -80,21 +80,12 @@ Software architecture is the blueprint of building software. It shows the overal
 
 5. **Database Layer** - This is the layer where system stores all the data. It is the lowest tier in the software architecture and houses not only data but indexes and tables as well. All operations on data happens in this layer while keeping the procedures hidden.
 
-env
+### Flow Chart
 
-start  
-declare variables num1, num2, sum  
-store number 1 - reading, assigining  
-store number 2 - reading, assigining  
-perform addition of number 1 and number 2  
-store result
-display result
-end
+<img src="./sampleFlowChart.png" alt="FlowChart">
 
-start
-input a, b
-process a + b
-output result
-stop
+### Flash assignment
 
-create flow chart for creating a bank account
+- create flow chart for creating a bank account
+
+<img src="./createBankAccount.drawio.png" alt="FlowChart">
