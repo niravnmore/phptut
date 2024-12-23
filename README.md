@@ -82,7 +82,7 @@ Software architecture is the blueprint of building software. It shows the overal
 
 ### Flow Chart
 
-<img src="./sampleFlowChart.png" alt="FlowChart">
+<img src="./sampleFlowChart.drawio.png" alt="FlowChart">
 
 ### Flash assignment
 
