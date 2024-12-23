@@ -263,46 +263,46 @@ Q. What are the key differences between web and desktop applications?
 <table>
 <tr>
 <th></th>
-<th>**Web Applications**</th>
-<th>**Desktop Applications**</th>
+<th>Web Applications</th>
+<th>Desktop Applications</th>
 </tr>
 <tr>
-<th>**Deployment**</th>
+<th>Deployment</th>
 <td>Hosted on a server and accessed via a browser over the internet.</td>
 <td>Installed and run directly on a user's computer or device.</td>
 </tr>
 <tr>
-<th>**Platform Dependency**</th>
+<th>Platform Dependency</th>
 <td>Platform-independent, as they run in a web browser (works across various operating systems).</td>
 <td>Platform-dependent (requires different versions for Windows, macOS, etc.).</td>
 </tr>
 <tr>
-<th>**Internet Connectivity**</th>
+<th>Internet Connectivity</th>
 <td>Require an active internet connection to function.</td>
 <td>Can often function offline, though some may require internet access for updates or specific features.</td>
 </tr>
 <tr>
-<th>**Installation and Updates**</th>
+<th>Installation and Updates</th>
 <td>No installation required, and updates are handled centrally on the server.</td>
 <td>Requires installation and manual updates or patches.</td>
 </tr>
 <tr>
-<th>**User Interface (UI)**</th>
+<th>User Interface (UI)</th>
 <td>Can be limited in UI design and performance by browser capabilities.</td>
 <td>Have more control over UI design and access to local system resources, allowing more advanced features.</td>
 </tr>
 <tr>
-<th>**Performance**</th>
+<th>Performance</th>
 <td>Can be slower due to network latency and browser limitations.</td>
 <td>Generally faster, as they run directly on the local system.</td>
 </tr>
 <tr>
-<th>**Security**</th>
+<th>Security</th>
 <td>Security depends on server-side infrastructure and network protocols.</td>
 <td>Security is mainly dependent on local machine protection and updates.</td>
 </tr>
 <tr>
-<th>**Maintenance**</th>
+<th>Maintenance</th>
 <td>Easier to maintain and update since changes are made on the server and reflected in real-time for all users.</td>
 <td>Maintenance requires user action to download and install updates.</td>
 </tr>
@@ -345,36 +345,36 @@ Q. What are the differences between native and hybrid mobile apps?
 <table>
 <tr>
 <th></th>
-<th>**Native Apps**</th>
-<th>**Hybrid Apps**</th>
+<th>Native Apps</th>
+<th>Hybrid Apps</th>
 </tr>
 <tr>
-<th>**Development**</th>
+<th>Development</th>
 <td>Platform-specific languages (e.g., Swift, Kotlin).</td>
 <td>Built with web technologies (HTML, CSS, JavaScript).</td>
 </tr>
 <tr>
-<th>**Performance**</th>
+<th>Performance</th>
 <td>Better, optimized for specific platforms.</td>
 <td>Slower, relies on a web view.</td>
 </tr>
 <tr>
-<th>**User Experience**</th>
+<th>User Experience</th>
 <td>Superior, uses native UI components.</td>
 <td>Less smooth, may vary across platforms.</td>
 </tr>
 <tr>
-<th>**Cost/Time**</th>
+<th>Cost/Time</th>
 <td>More expensive and time-consuming to develop.</td>
 <td>Faster and cheaper to develop with one codebase.</td>
 </tr>
 <tr>
-<th>**Device Access**</th>
+<th>Device Access</th>
 <td>Full access to device features.</td>
 <td>Limited access, requires plugins for full functionality.</td>
 </tr>
 <tr>
-<th>**Maintenance**</th>
+<th>Maintenance</th>
 <td>Separate updates for each platform.</td>
 <td>Easier with a single codebase and simultaneous updates.</td>
 </tr>
