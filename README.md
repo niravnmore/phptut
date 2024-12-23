@@ -57,3 +57,44 @@ Types of Programming languages
 - Its ultimate purpose is to improve security practices and as a result detect, repair and ideally avoid security flaws in applications.
 - It cover the entire application life cycle including requirement analysis, design implementation, testing and maintenance.
 
+### SDLC
+
+1. Planning
+2. Requirement Analysis
+3. Desigining
+4. Implementation
+5. Testing
+6. Maintenance
+
+### Software Architecture
+
+Software architecture is the blueprint of building software. It shows the overall structure of the software, the collection of components in it and how they interact with one another while hiding the implementation.
+
+1. **Presentation Layer** - This layer is also called the UI layer and handles the interaction that user have with the software. It is the most visible layer and defines the application's overall look and presentation to the end-users.
+
+2. **Application Layer** - This layer handles the main program of the architecture. It includes the code definitions and most basic functions of the developed application. This is the layer that programmer spends most of their time when working on the software.
+
+3. **Business Layer** - This layer is also called the domain layer where the application's business logic operates. Business logic is a collection of rules that tell the system how to run an application based on the organization's guidelines. This layer determines the behaviour of the entire application and its flow.
+
+4. **Persistance Layer** - This layer is also called the data access layer and acts as a protective layer. It contains the codes that is necessary to access the database layer.
+
+5. **Database Layer** - This is the layer where system stores all the data. It is the lowest tier in the software architecture and houses not only data but indexes and tables as well. All operations on data happens in this layer while keeping the procedures hidden.
+
+env
+
+start  
+declare variables num1, num2, sum  
+store number 1 - reading, assigining  
+store number 2 - reading, assigining  
+perform addition of number 1 and number 2  
+store result
+display result
+end
+
+start
+input a, b
+process a + b
+output result
+stop
+
+create flow chart for creating a bank account
