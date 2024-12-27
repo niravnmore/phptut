@@ -91,3 +91,61 @@ Software architecture is the blueprint of building software. It shows the overal
 - create flow chart for creating a bank account.
 
 <img src="./createBankAccount.drawio.png" alt="FlowChart" style="background-color:grey;">
+
+- create flow chart for forget password
+
+<img src="./forgotpassword.drawio.png" alt="FlowChart" style="background-color:grey;">
+
+- create flow chart for login page
+
+<img src="./loginpageflow.drawio.png" alt="FlowChart" style="background-color:grey;">
+
+
+
+## What is api?
+
+An **API (Application Programming Interface)** is a set of rules, protocols, and tools that allow different software applications to communicate and interact with each other. It acts as an intermediary, enabling one system to access the features or data of another system without needing to understand its internal workings.
+
+### Key Concepts:
+1. **Interface**: The API defines how the requesting software (client) and the responding software (server) interact.  
+2. **Abstraction**: It hides the complexity of the underlying implementation, providing a simple way to use its functionality.  
+3. **Communication**: APIs enable communication between systems, even if they are built on different technologies.
+
+### Types of APIs:
+1. **Web APIs**:
+   - Allow applications to interact over the internet.
+   - Commonly use protocols like HTTP or HTTPS.
+   - Examples: REST, SOAP, GraphQL.
+2. **Operating System APIs**:
+   - Enable applications to interact with the operating system.
+   - Example: Windows API, POSIX.
+3. **Library APIs**:
+   - Provide predefined functions or classes that developers can use in their programs.
+   - Example: Standard libraries in programming languages like Python or Java.
+4. **Hardware APIs**:
+   - Allow software to interact with hardware components.
+   - Example: GPU APIs for rendering graphics.
+
+### Common Use Cases:
+1. **Data Access**: Fetch data from a remote server (e.g., weather, stock prices).  
+   Example: A weather app using an API to retrieve weather information.  
+2. **Third-Party Integration**: Connect to external services.  
+   Example: Payment gateways like PayPal or Stripe.  
+3. **Automation**: Automate repetitive tasks between applications.  
+   Example: Using APIs to sync calendar events across apps.  
+
+### Example of a Web API Request:
+A simple API request to a weather service might look like this:  
+```plaintext
+GET https://api.weather.com/v1/current?city=Ahmedabad&key=yourapikey
+```
+
+### Benefits of APIs:
+1. **Efficiency**: Reuse existing functionality instead of building from scratch.
+2. **Interoperability**: Enables systems with different technologies to work together.
+3. **Scalability**: Easy to extend functionality by integrating more APIs.
+4. **Innovation**: Encourages building new applications by leveraging existing services.
+
+APIs are foundational to modern software development, enabling the seamless integration of diverse systems and services.
+
+
