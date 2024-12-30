@@ -148,7 +148,7 @@ GET https://api.weather.com/v1/current?city=Ahmedabad&key=yourapikey
 
 APIs are foundational to modern software development, enabling the seamless integration of diverse systems and services.
 
-## User case diagram
+## User case diagram 
 
 add product - seller  
 purchase product - buyer  
