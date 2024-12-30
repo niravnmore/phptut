@@ -186,6 +186,8 @@ include -> add something
 stdio -> standard input output  
 `.h` -> header file  
 
+### Static calculator
+
       #include<stdio.h>
       main(){
          //printf
@@ -200,7 +202,7 @@ stdio -> standard input output
          printf("\n Div : %.2f", (float)a/b); //typecasting
       }
 
-Dynamic calculator
+### Dynamic calculator
 
       #include<stdio.h>
       main(){
@@ -219,3 +221,101 @@ Dynamic calculator
          printf("\n Div : %d", a/b);
          printf("\n Div : %.2f", (float)a/b); //typecasting
       }
+
+## Convert years to days
+
+      #include<stdio.h>
+      main(){
+         // years to days
+         int year;
+         printf("Enter year : ");
+         scanf("%d", &year);
+            
+         int days = year * 365;
+         printf("Days are : %d", days);
+      }
+
+## Switch variables with temporary variable
+
+      #include<stdio.h>
+      main(){
+         // switch variables with temporary variable
+            int a,b,temp;
+            printf("Enter value 1 : ");
+            scanf("%d", &a);
+            printf("Enter value 2 : ");
+            scanf("%d", &b);
+            
+            temp = a;
+            a = b;
+            b = temp;
+            
+            printf("\nvalue a : %d", a);
+            printf("\nvalue b : %d", b);
+      }
+
+## Switch variables without temporary variable
+
+      #include<stdio.h>
+      main(){
+         // switch variables without temporary variable
+            int a,b,temp;
+            printf("Enter value 1 : ");
+            scanf("%d", &a);
+            printf("Enter value 2 : ");
+            scanf("%d", &b);
+            
+            a = a+b;
+            b = a-b;
+            a = a-b;
+
+            printf("\nvalue a : %d", a);
+            printf("\nvalue b : %d", b);
+      }
+
+## days to year
+
+      #include<stdio.h>
+      main(){
+         // days to year
+            int days, temp; 
+            float year;
+            printf("Enter number of days : ");
+            scanf("%d", &days);
+
+            year =(float)days/365;
+            temp = days % 365;
+            
+            printf("Total number of years %d and days %d", (int)year, temp);
+      }
+
+## year to month
+
+      #include<stdio.h>
+      main(){
+      // year to month
+            int month, year;
+            printf("Enter value for year : ");
+            scanf("%d", &year);
+            
+            month = year*12;
+            
+            printf("Value for months : %d", month);
+      }
+
+## Month to year
+
+      #include<stdio.h>
+      main(){
+         // month to year 
+            int month;
+            printf("Enter value for month : ");
+            scanf("%d", &month);
+            float year;
+            
+            year=(float)month/12;
+            
+            printf("Value for years : %f", year);
+      }
+
+## 
