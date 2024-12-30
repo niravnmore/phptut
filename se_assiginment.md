@@ -1,28 +1,28 @@
 # Module 1 : Overview of IT Industry
 
 #### What is a program?
-Q. Explain in you own words what a program is and how it functions.
+Q-1. Explain in you own words what a program is and how it functions.
 - Program is a set of instructions given to a machine, device or hardware that is able to decode it.
 - The device follows the set of instructions sequentially to accomplish a task.
 
 #### What is Programming?
-Q. What are the key steps involved in the programming process?
+Q-2. What are the key steps involved in the programming process?
 - Programming involves understanding a given problem and producing a solution for it. It include designing algorithm, coding, testing, removing errors, deployment and maintenance. 
 
 #### Types of Programming Languages
-Q. What are the main differences between high-level and low-level programming languages?
+Q-3. What are the main differences between high-level and low-level programming languages?
 - Low level programming is similar or closer to machine code and provides a precise control and efficiency over how a perticular task is performed.
 - Low level programming are diffcult to understand and code.
 - High level programming languages are similar or closer to human language and can be easily understood about what a set of instructions are trying to achieve.
 - High level programming languages are mostly independent of the underlying hardware.
 
 #### World Wide Web & How Internet Works
-Q. Describe the roles of the client and server in web communication.
+Q-4. Describe the roles of the client and server in web communication.
 - In web communication, a client is an entity that is requesting information and server is an entity that is providing the requested information.
 - In normal cases, there is a single server serving multiple clients in a given duration of time.
 
 #### Network Layers on Client and Server
-Q. Explain the function of the TCP/IP model and its layers.
+Q-5. Explain the function of the TCP/IP model and its layers.
 - TCP/IP model is an internet network framework used to provide reliable data communication among different devices and networks.
 - Layers of TCP/IP
     - Application Layer : provides interfaces and protocols for user communication
@@ -30,20 +30,20 @@ Q. Explain the function of the TCP/IP model and its layers.
     - Internet Layer : manages logical addressing and routing
     - Network Layer : manages physical data transmission and hardware addressing
 
-Q. Explain Client Server Communication
+Q-6. Explain Client Server Communication
 - Client server communication is a communication model where client is requesting information, services or resources while server provides that requested information, service or resource.
 - Communication is always initiated by the client while it end with completion of the request or an acknowledgement.
 - A simple example is a user accessing a website through a browser, where the browser acts as a client and a remote web server acts as a server.
 
 #### Types of Internet Connections
-Q. How does broadband differ from fiber-optic internet?
+Q-7. How does broadband differ from fiber-optic internet?
 - Broadband and fiber-optics internet are types of internet where fiber-optics is an advanced and later version of high speed internet.
 - Broadband utilises coaxial cable, DSL or satellite whereas fibre-optics uses glass or plastic fibers to transmit data as light signals.
 - Broadband is susceptible to interference due to weather changes, distance or shared usage.
 - Optical fiber internet is consistent and highly reliable with minimal interference.
 - Fiber-optic internet is costlier that broadband.
 
-Q. What are the differences between HTTP and HTTPS protocols?  
+Q-8. What are the differences between HTTP and HTTPS protocols?  
 - HTTP stands for **Hypertext Transfer Protocol** and HTTPS is **Hypertext Transfer Protocol Secure**. 
 - With HTTP data is sent in plain text format and so vulnerable to interception.
 - In HTTPS, data is encrypted using SSL/TLS thus securing data against eavesdropping or tampering.
@@ -51,7 +51,7 @@ Q. What are the differences between HTTP and HTTPS protocols?
 
 #### Application Security
 
-Q. What is the role of encryption in securing applications?
+Q-9. What is the role of encryption in securing applications?
 - Encyrption helps in securing applications by converting data into an unreadable format to protect it from unautorized access to sensitive data.
     - Confidentiality: Protects sensitive data from unauthorized access.
     - Integrity: Detects and prevents data tampering.
@@ -61,7 +61,7 @@ Q. What is the role of encryption in securing applications?
     - End-to-End Security: Protects data throughout its lifecycle.
 
 #### Software Applications and Its Types
-Q. What is the difference between system software and application software?
+Q-10. What is the difference between system software and application software?
 
 <table>
 <tr>
@@ -93,7 +93,7 @@ Q. What is the difference between system software and application software?
 
 #### Software Architecture
 
-Q. What is the significance of modularity in software architecture?
+Q-11. What is the significance of modularity in software architecture?
 - Modularity is a practice of breaking complicated and complex programs or systems into smaller, self-contained and managable units or modules that can function independently.
 - This is mainly done to make each part easier to design, develop and test.
 - Independent units or modules can be reused across projects and reduces development time and cost.
@@ -104,7 +104,7 @@ Q. What is the significance of modularity in software architecture?
 
 #### Layers in Software Architecture
 
-Q. Why are layers important in software architecture?
+Q-12. Why are layers important in software architecture?
 - Layers in software architecture are important because they organize and separate different concerns, making the system more manageable, maintainable, and scalable. 
 - Each layer is responsible for a specific set of tasks, ensuring that the architecture remains modular and flexible.
 - Layers in software architecture are essential for separating concerns, enhancing maintainability, scalability, and testing, and promoting modularity.
@@ -112,7 +112,7 @@ Q. Why are layers important in software architecture?
 
 #### Software Environments
 
-Q. Explain the importance of a development environment in software production. 
+Q-13. Explain the importance of a development environment in software production. 
 - A development environment is crucial in software production as it provides the tools, frameworks, and settings required to build, test, and debug software efficiently and effectively. 
 - It plays a vital role in improving productivity, ensuring consistency, and reducing errors.
 - A development environment is crucial for streamlining the software development process by providing the tools needed for coding, testing, collaboration, and debugging. 
@@ -120,7 +120,7 @@ Q. Explain the importance of a development environment in software production.
 
 #### Source Code
 
-Q. What is the difference between source code and machine code?
+Q-14. What is the difference between source code and machine code?
 - Source code is written in a programming language and is not executable, while machine code is an executable code.
 - Source code is converted into a machine code with help of a language compiler.
 - Source code is human-readable, easily editable, highly portable and abstract.
@@ -128,7 +128,7 @@ Q. What is the difference between source code and machine code?
 
 #### Github and Introductions
 
-Q. Why is version control important in software development?
+Q-15. Why is version control important in software development?
 - Version control is a critical aspect of software development as it helps manage changes to the codebase over time.
 - It allows multiple developers to collaborate, track modifications, and maintain the integrity of the software project.
 - It also helps with tracking changes, parallel coding and collaboration, creates parallel branches of code for managing new features, bug fixes or experimentation.
@@ -138,7 +138,7 @@ Q. Why is version control important in software development?
 
 #### Student Account in Github
 
-Q. What are the benefits of using Github for students?
+Q-16. What are the benefits of using Github for students?
 - GitHub offers several benefits for students, particularly those involved in software development, collaboration, and learning.
     - **Version Control and Code Management** : Students can track the evolution of their projects, maintain organized versions, and avoid losing progress due to mistakes or system crashes.
     - **Collaboration and Teamwork** : GitHub provides a streamlined way to share and combine code, manage changes, and prevent conflicts. It helps students work together more efficiently.
@@ -150,7 +150,7 @@ Q. What are the benefits of using Github for students?
     - **Collaboration with Mentors and Professors** - This makes it easy for students to get feedback on their work, ask for guidance, and improve their projects in an iterative way.
 
 #### Types of Software
-Q. What are the differences between open-source and proprietary software?
+Q-17. What are the differences between open-source and proprietary software?
 - The differences between open-source and proprietary software primarily involve the accessibility of the source code, licensing, cost, and the level of control given to users.  
     **Open-source Software** : 
     - These softwares are freely available to public. Anyone can view, modify, and distribute the code. e.g., Linux, Apache, Mozilla Firefox, WordPress.
@@ -166,7 +166,7 @@ Q. What are the differences between open-source and proprietary software?
 
 #### GIT and GITHUB Training
 
-Q. How does GIT improve collaboration in a software development team?
+Q-18. How does GIT improve collaboration in a software development team?
 - Git improves collaboration in software development by offering:  
     - **Distributed Version Control**: Each developer has a local copy of the repository, allowing work offline and syncing changes when needed.  
     - **Branching and Merging**: Developers can work on separate branches and later merge their changes, minimizing conflicts and maintaining code stability.  
@@ -180,7 +180,7 @@ Q. How does GIT improve collaboration in a software development team?
 
 #### Application Software
 
-Q. What is the role of application software in businesses?
+Q-19. What is the role of application software in businesses?
 - Roles of application software in businesses
     - **Automates Tasks**: Streamlines repetitive processes (e.g., payroll, inventory).
     - **Boosts Productivity**: Enhances efficiency with tools like word processors and spreadsheets.
@@ -195,7 +195,7 @@ Q. What is the role of application software in businesses?
 
 #### Software Development Process
 
-Q. What are the main stages of the software development process?
+Q-20. What are the main stages of the software development process?
 - The main stages of the software development process are:
     - **Requirements Gathering**: Understand and document user needs and system requirements.
     - **System Design**: Plan the architecture, modules, and user interface.
@@ -206,7 +206,7 @@ Q. What are the main stages of the software development process?
 
 #### Software Requirement
 
-Q. Why is the requirement analysis phase critical in software development?
+Q-21. Why is the requirement analysis phase critical in software development?
 - The Requirement Analysis phase is critical in software development because:
     - **Defines Clear Expectations**: It helps identify and document user needs, ensuring the software meets its intended purpose.
     - **Prevents Misunderstandings**: Clarifies scope, functionality, and constraints, reducing the risk of miscommunication between stakeholders.
@@ -216,7 +216,7 @@ Q. Why is the requirement analysis phase critical in software development?
 
 #### Software Analysis
 
-Q. What is the role of software analysis in the development process?
+Q-22. What is the role of software analysis in the development process?
 - Software analysis plays a key role in the development process by:
     - **Understanding Requirements**: It helps identify and clarify the needs of the users and stakeholders to ensure the software aligns with expectations.
     - **Defining System Specifications**: Analyzes functional and non-functional requirements, forming the basis for design and development.
@@ -226,7 +226,7 @@ Q. What is the role of software analysis in the development process?
 
 #### System Design
 
-Q. What are the key elements of system design?
+Q-23. What are the key elements of system design?
 - The key elements of system design include:
     - **Architecture Design**: Defines the overall structure, components, and their interactions within the system.
     - **Database Design**: Specifies how data is stored, accessed, and managed, including schemas and relationships.
@@ -239,7 +239,7 @@ Q. What are the key elements of system design?
 
 #### Software Testing
 
-Q. Why is software testing important?
+Q-24. Why is software testing important?
 - Software testing is important because:
     - **Ensures Quality** : Verifies that the software meets the required standards and functions correctly.
     - **Identifies Bugs** : Detects errors and defects early, reducing the cost of fixing issues later.
@@ -250,7 +250,7 @@ Q. Why is software testing important?
 
 #### Maintenance
 
-Q. What types of software maintenance are there?
+Q-25. What types of software maintenance are there?
 - The types of software maintenance are:
     - **Corrective Maintenance** : Fixes defects or bugs found in the software after it has been released.
     - **Adaptive Maintenance** : Updates the software to work with changes in the environment, such as new operating systems or hardware.
@@ -259,7 +259,7 @@ Q. What types of software maintenance are there?
 
 #### Development
 
-Q. What are the key differences between web and desktop applications?
+Q-26. What are the key differences between web and desktop applications?
 <table>
 <tr>
 <th></th>
@@ -315,7 +315,7 @@ Q. What are the key differences between web and desktop applications?
 
 #### Web Application
 
-Q. What are the advantages of using web applications over desktop applications?  
+Q-27. What are the advantages of using web applications over desktop applications?  
 - The advantages of using **web applications** over **desktop applications** include:
     1. **Cross-Platform Compatibility**: Web applications can run on any device with a browser, regardless of the operating system (Windows, macOS, Linux, etc.).
     2. **No Installation Required**: Users can access web apps directly from the browser without the need for installation, saving time and reducing the complexity for users.
@@ -328,7 +328,7 @@ Q. What are the advantages of using web applications over desktop applications?
 
 #### Designing
 
-Q. What role does UI/UX design play in application development?  
+Q-28. What role does UI/UX design play in application development?  
 - **UI/UX design** plays a critical role in application development by focusing on user experience and interface to ensure the application is intuitive, engaging, and efficient. Here's how it contributes:
     1. **User Satisfaction**: A well-designed UI/UX enhances usability and makes the application more enjoyable to use, leading to higher user satisfaction.
     2. **Ease of Use**: UI/UX design ensures the interface is intuitive, minimizing the learning curve and improving overall user efficiency.
@@ -341,7 +341,7 @@ Q. What role does UI/UX design play in application development?
 
 #### Mobile Application
 
-Q. What are the differences between native and hybrid mobile apps?
+Q-29. What are the differences between native and hybrid mobile apps?
 <table>
 <tr>
 <th></th>
@@ -385,7 +385,7 @@ Q. What are the differences between native and hybrid mobile apps?
 
 #### DFD (Data Flow Diagram)
 
-Q. What is the significance of DFDs in system analysis?  
+Q-30. What is the significance of DFDs in system analysis?  
 - The significance of **Data Flow Diagrams (DFDs)** in system analysis lies in their ability to:
     1. **Visualize Processes**: Represent how data flows through a system, making complex processes easier to understand.
     2. **Identify Inputs and Outputs**: Highlight the sources, destinations, and transformations of data within the system.
@@ -396,7 +396,7 @@ Q. What is the significance of DFDs in system analysis?
 
 #### Desktop Application
 
-Q. What are the pros and cons of desktop applications compared to web applications?
+Q-31. What are the pros and cons of desktop applications compared to web applications?
 ##### **Pros of Desktop Applications**:  
 1. **Offline Functionality**: Can operate without an internet connection.  
 2. **Performance**: Typically faster, with direct access to hardware resources.  
@@ -427,7 +427,7 @@ In summary, **desktop applications** excel in performance and offline functional
 
 #### Flow Chart
 
-Q. How do flowcharts help in programming and system design?  
+Q-32. How do flowcharts help in programming and system design?  
 - **Flowcharts** aid programming and system design by:  
     1. **Simplifying Processes**: Visualize and clarify complex workflows.  
     2. **Planning**: Act as a blueprint for coding or system design.  

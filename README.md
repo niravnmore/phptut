@@ -148,4 +148,74 @@ GET https://api.weather.com/v1/current?city=Ahmedabad&key=yourapikey
 
 APIs are foundational to modern software development, enabling the seamless integration of diverse systems and services.
 
+## User case diagram
 
+add product - seller  
+purchase product - buyer  
+ view product - buyer - seller  
+login - buyer - seller  
+signup - buyer - seller  
+
+## History of C language
+
+created by denis ritchee as the system programming language - 1970
+launched a popular book called C programming langauge and so got a new name. 1979
+
+value, variable, datatype
+
+datatype
+int %d  
+float %f  
+string %s  
+double %lf  
+longdouble %Lf  
+boolean
+char %c
+
+#### c
+
+file extension for c file `.c`
+
+      #include<stdio.h>
+      main(){
+         
+      }
+ 
+`#` -> predefine  
+include -> add something  
+stdio -> standard input output  
+`.h` -> header file  
+
+      #include<stdio.h>
+      main(){
+         //printf
+         int a=50, b=10;
+
+         printf("A : %d", a);
+         printf("\nB : %d", b);
+         printf("\n Add : %d", a+b);
+         printf("\n Sub : %d", a-b);
+         printf("\n Mul : %d", a*b);
+         printf("\n Div : %d", a/b);
+         printf("\n Div : %.2f", (float)a/b); //typecasting
+      }
+
+Dynamic calculator
+
+      #include<stdio.h>
+      main(){
+         int a,b;
+         
+         printf("Enter value 1 : ");
+         scanf("%d", &a);
+         printf("Enter value 2 : ");
+         scanf("%d", &b);
+
+         printf("A : %d", a);
+         printf("\nB : %d", b);
+         printf("\n Add : %d", a+b);
+         printf("\n Sub : %d", a-b);
+         printf("\n Mul : %d", a*b);
+         printf("\n Div : %d", a/b);
+         printf("\n Div : %.2f", (float)a/b); //typecasting
+      }
