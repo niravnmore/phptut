@@ -258,9 +258,9 @@ int main() {
     printf("%d < %d : %d\n", num1, num2, num1 < num2);
     printf("%d >= %d : %d\n", num1, num2, num1 >= num2);
     printf("%d <= %d : %d\n", num1, num2, num1 <= num2);
-	
-	// Logical operation
-	printf("(%d > 0) && (%d > 0): %d\n", num1, num2, (num1 > 0) && (num2 > 0));
+    
+    // Logical operation
+    printf("(%d > 0) && (%d > 0): %d\n", num1, num2, (num1 > 0) && (num2 > 0));
     printf("(%d > 0) || (%d > 0): %d\n", num1, num2, (num1 > 0) || (num2 > 0));
     printf("!(%d > %d): %d\n", num1, num2, !(num1 > num2));
 	
