@@ -156,7 +156,7 @@ purchase product - buyer
 login - buyer - seller  
 signup - buyer - seller  
 
-## History of C language
+# Introduction to C language
 
 created by denis ritchee as the system programming language - 1970
 launched a popular book called C programming langauge and so got a new name. 1979
@@ -172,7 +172,7 @@ longdouble %Lf
 boolean
 char %c
 
-#### c
+### Examples
 
 file extension for c file `.c`
 
@@ -189,133 +189,275 @@ stdio -> standard input output
 ### Static calculator
 
       #include<stdio.h>
-      main(){
-         //printf
-         int a=50, b=10;
+      main()
+      {
+         // static calculator
+
+         int a = 55, b = 10;
 
          printf("A : %d", a);
          printf("\nB : %d", b);
-         printf("\n Add : %d", a+b);
-         printf("\n Sub : %d", a-b);
-         printf("\n Mul : %d", a*b);
-         printf("\n Div : %d", a/b);
-         printf("\n Div : %.2f", (float)a/b); //typecasting
+         printf("\n Add : %d", a + b);
+         printf("\n Sub : %d", a - b);
+         printf("\n Mul : %d", a * b);
+         printf("\n Div : %d", a / b);
+         printf("\n Div : %.2f", (float)a / b); // typecasting
       }
 
-### Dynamic calculator
+### Dynamic input calculation
 
       #include<stdio.h>
-      main(){
-         int a,b;
-         
+
+      main() {
+         // Dynamic input calculation
+         int a, b;
+
          printf("Enter value 1 : ");
-         scanf("%d", &a);
+         scanf("%d", & a);
          printf("Enter value 2 : ");
-         scanf("%d", &b);
+         scanf("%d", & b);
 
          printf("A : %d", a);
          printf("\nB : %d", b);
-         printf("\n Add : %d", a+b);
-         printf("\n Sub : %d", a-b);
-         printf("\n Mul : %d", a*b);
-         printf("\n Div : %d", a/b);
-         printf("\n Div : %.2f", (float)a/b); //typecasting
+         printf("\n Add : %d", a + b);
+         printf("\n Sub : %d", a - b);
+         printf("\n Mul : %d", a * b);
+         printf("\n Div : %d", a / b);
+         printf("\n Div : %.2f", (float) a / b); //typecasting
       }
 
-## Convert years to days
+### Convert number of years into number of days
 
       #include<stdio.h>
-      main(){
-         // years to days
+
+      main() {
+         // Convert number of years into number of days
          int year;
          printf("Enter year : ");
-         scanf("%d", &year);
-            
+         scanf("%d", & year);
+
          int days = year * 365;
          printf("Days are : %d", days);
       }
 
-## Switch variables with temporary variable
+### Switch variables with temporary variable
 
       #include<stdio.h>
-      main(){
-         // switch variables with temporary variable
-            int a,b,temp;
-            printf("Enter value 1 : ");
-            scanf("%d", &a);
-            printf("Enter value 2 : ");
-            scanf("%d", &b);
-            
-            temp = a;
-            a = b;
-            b = temp;
-            
-            printf("\nvalue a : %d", a);
-            printf("\nvalue b : %d", b);
+
+      main() {
+         // switch variable with temporary variable
+         int a, b, temp;
+         printf("Enter value a : ");
+         scanf("%d", & a);
+         printf("Enter value b : ");
+         scanf("%d", & b);
+
+         temp = a;
+         a = b;
+         b = temp;
+
+         printf("\nvalue a : %d", a);
+         printf("\nvalue b : %d", b);
       }
 
-## Switch variables without temporary variable
+### Switch variables without temporary variable
 
       #include<stdio.h>
-      main(){
+
+      main() {
          // switch variables without temporary variable
-            int a,b,temp;
-            printf("Enter value 1 : ");
-            scanf("%d", &a);
-            printf("Enter value 2 : ");
-            scanf("%d", &b);
-            
-            a = a+b;
-            b = a-b;
-            a = a-b;
+         int a, b, temp;
+         printf("Enter value a : ");
+         scanf("%d", & a);
+         printf("Enter value b : ");
+         scanf("%d", & b);
 
-            printf("\nvalue a : %d", a);
-            printf("\nvalue b : %d", b);
+         a = a + b;
+         b = a - b;
+         a = a - b;
+
+         printf("\nvalue a : %d", a);
+         printf("\nvalue b : %d", b);
       }
 
-## days to year
+### Convert number of days into number of year/s
 
       #include<stdio.h>
-      main(){
-         // days to year
-            int days, temp; 
-            float year;
-            printf("Enter number of days : ");
-            scanf("%d", &days);
 
-            year =(float)days/365;
-            temp = days % 365;
-            
-            printf("Total number of years %d and days %d", (int)year, temp);
+      main() {
+
+         // Convert number of days into number of year/s
+
+         int days, temp;
+         float year;
+
+         printf("Enter number of days : ");
+         scanf("%d", & days);
+
+         year = (float) days / 365;
+         temp = days % 365;
+
+         printf("Total number of years %d and days %d", (int) year, temp);
       }
 
-## year to month
+### Convert number of years into number of months
 
       #include<stdio.h>
-      main(){
-      // year to month
-            int month, year;
-            printf("Enter value for year : ");
-            scanf("%d", &year);
-            
-            month = year*12;
-            
-            printf("Value for months : %d", month);
+
+      main() {
+         // Convert number of years into number of months
+         int month, year;
+         printf("Enter value for year : ");
+         scanf("%d", & year);
+
+         month = year * 12;
+
+         printf("Value for months : %d", month);
       }
 
-## Month to year
+### Convert number of months into number of years
 
       #include<stdio.h>
-      main(){
-         // month to year 
-            int month;
-            printf("Enter value for month : ");
-            scanf("%d", &month);
-            float year;
-            
-            year=(float)month/12;
-            
-            printf("Value for years : %f", year);
+
+      main() {
+         // Convert number of months into number of years
+         int month;
+         printf("Enter value for month : ");
+         scanf("%d", & month);
+         float year;
+         year = (float) month / 12;
+         printf("Value for years : %f", year);
       }
 
-## 
+## Conditional Statements
+There are 3 types of conditional statements  
+1. Normal if...else statement  
+2. Ladder if...else statement  
+3. Nested if...else statement
+
+### Example for Normal if...else statements
+
+      #include <stdio.h>
+
+      main() {
+         // Check age eligibility for voting
+         int n;
+         printf("Enter age : ");
+         scanf("%d", & n);
+         if (n >= 18) {
+            printf("Eligible for vote!!");
+         } else {
+            printf("Not eligible for vote!!");
+         }
+      }
+
+### Examples for Ladder if...else statements
+
+      #include <stdio.h>
+
+      main() {
+         // Check age eligibility for voting with invalid age check
+         int n;
+         printf("Enter age : ");
+         scanf("%d", & n);
+         if (n > 100) {
+            printf("Invalid age!!");
+         } else if (n >= 18) {
+            printf("Eligible for vote!!");
+         } else {
+            printf("Not eligible for vote!!");
+         }
+      }
+
+### Check if a number is even or odd
+
+      #include<stdio.h>
+
+      main() {
+         // Check if a number is even or odd
+         int n;
+         printf("Enter a number : ");
+         scanf("%d", & n);
+         if (n == 0) {
+            printf("Neither even nor odd!!");
+         } else if (n % 2 == 0) {
+            printf("%d is even number!!", n);
+         } else {
+            printf("%d is odd number!!", n);
+         }
+      }
+
+### Check if a number is greater than another number
+
+      #include<stdio.h>
+
+      main() {
+         // Check if a number is greater than another number
+         int n, m;
+         printf("Enter number A: ");
+         scanf("%d", & n);
+
+         printf("Enter number B: ");
+         scanf("%d", & m);
+
+         printf("A = %d", n);
+         printf("\nB = %d", m);
+
+         if (n > m) {
+            printf("\nNumber A is greater than number B");
+         } else {
+            printf("\nNumber A is not greater than number B");
+         }
+      }
+
+### Examples for nested if...else statements
+
+      #include<stdio.h>
+
+      main() {
+         // Check which of the three numbers is greatest
+         int n1, n2, n3;
+         printf("Enter number n1: ");
+         scanf("%d", & n1);
+         printf("Enter number n2: ");
+         scanf("%d", & n2);
+         printf("Enter number n3: ");
+         scanf("%d", & n3);
+
+         if (n1 > n2) {
+            if (n1 > n3) {
+                  printf("\nn1 is greatest");
+            } else {
+                  printf("\nn3 is greatest");
+            }
+         } else {
+            if (n2 > n3) {
+                  printf("\nn2 is greatest");
+            } else {
+                  printf("\nn3 is greatest");
+            }
+         }
+      }
+
+### Check which of the three numbers is greatest using logical operators
+
+      #include <stdio.h>
+
+      main() {
+         // Check which of the three numbers is greatest
+         int n1, n2, n3;
+         printf("Enter number n1: ");
+         scanf("%d", & n1);
+         printf("Enter number n2: ");
+         scanf("%d", & n2);
+         printf("Enter number n3: ");
+         scanf("%d", & n3);
+
+         if (n1 > n2 && n1 > n3) {
+            printf("\n%d is greatest", n1);
+         } else if (n2 > n1 && n2 > n3) {
+            printf("\n%d is greatest", n2);
+         } else {
+            printf("\n%d is greatest", n3);
+         }
+      }
