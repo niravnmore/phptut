@@ -461,3 +461,96 @@ There are 3 types of conditional statements
             printf("\n%d is greatest", n3);
          }
       }
+
+## Looping
+
+Loop repeats a particular statement or a code block till the condition remains satisfied.
+
+There are 2 types of loops
+1. Entry control loops : e.g., `while`, `for`
+2. Exit control loops : e.g., `do...while`
+
+Examples:
+### Print number from 10 to 1
+```c
+#include <stdio.h>
+
+main() {
+    // Declare variables
+    int a;
+    
+    // Print number from 10 to 1
+    // while loop
+    a=10;
+    while(a>=1){
+    	printf("%d ", a);
+    	a--;
+    	printf("\n");
+	}
+	
+}
+```
+---
+### Print number in decending order from the number entered by user
+```c
+#include <stdio.h>
+
+main() {
+    // Print number in decending order from the number entered 
+    // by user
+    int a;
+    
+    printf("Please enter a number : ");
+    scanf("%d", &a);
+    
+    // Print number from 10 to 1
+    // while loop
+	//    a=10;
+    while(a>=1){
+    	printf("%d ", a);
+    	a--;
+    	printf("\n");
+	}
+}
+```
+---
+### Print factorial number from the number entered by user (while loop)
+```c
+#include <stdio.h>
+
+main() {
+    // Print factorial number from the number entered by user
+    int a;
+    int i=1,fac=1;
+    printf("Please enter a number : ");
+    scanf("%d", &a);
+    while(i<=a){
+    	fac=fac*i;
+    	i++;
+	}
+	printf("Factorial number of %d is %d", a, fac);
+}
+```
+---
+### Print summation value for number provided by user (while loop)
+```c
+#include <stdio.h>
+
+main() {
+    // Print summation of numbers from the number to 1. Number provided by user
+    int a;
+    int i=1,sum=0;
+    printf("Please enter a number : ");
+    scanf("%d", &a);
+    while(i<=a){
+    	sum=sum+i; //0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15
+    	i++;
+	}
+	printf("Summation of numbers for %d is %d", a, sum);
+}
+```
+---
+###
+```c
+
+```
