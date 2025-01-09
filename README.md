@@ -554,3 +554,97 @@ main() {
 ```c
 
 ```
+## List of functions present in stdio.h header file
+
+The `stdio.h` header file in C provides functions for input and output operations. Below is a list of commonly used functions provided by this header:
+
+### File Input/Output
+- **`fopen`**: Opens a file.
+- **`fclose`**: Closes an open file.
+- **`fread`**: Reads data from a file.
+- **`fwrite`**: Writes data to a file.
+- **`fseek`**: Sets the file position to a specified offset.
+- **`ftell`**: Returns the current file position.
+- **`rewind`**: Sets the file position to the beginning of the file.
+- **`fflush`**: Flushes the output buffer of a file.
+- **`fgetc`**: Reads a character from a file.
+- **`fputc`**: Writes a character to a file.
+- **`fgets`**: Reads a string from a file.
+- **`fputs`**: Writes a string to a file.
+- **`getc`**: Reads a character (similar to `fgetc` but can be used with macros).
+- **`putc`**: Writes a character (similar to `fputc` but can be used with macros).
+- **`ungetc`**: Pushes a character back to the file stream.
+
+### Standard Input/Output
+- **`printf`**: Prints formatted output to the standard output.
+- **`fprintf`**: Prints formatted output to a file.
+- **`sprintf`**: Prints formatted output to a string.
+- **`snprintf`**: Prints formatted output to a string with a size limit.
+- **`scanf`**: Reads formatted input from the standard input.
+- **`fscanf`**: Reads formatted input from a file.
+- **`sscanf`**: Reads formatted input from a string.
+
+### Character Input/Output
+- **`getchar`**: Reads a character from standard input.
+- **`putchar`**: Writes a character to standard output.
+
+### Error Handling
+- **`perror`**: Prints a description of the last error.
+- **`clearerr`**: Clears the error and end-of-file indicators for a file stream.
+- **`feof`**: Checks the end-of-file indicator for a file stream.
+- **`ferror`**: Checks the error indicator for a file stream.
+
+### File Buffering
+- **`setbuf`**: Sets the buffer for a file.
+- **`setvbuf`**: Sets the mode of buffering for a file.
+
+### Temporary File and Name Handling
+- **`tmpfile`**: Creates a temporary file.
+- **`tmpnam`**: Generates a unique temporary file name.
+
+### Other Utility Functions
+- **`remove`**: Deletes a file.
+- **`rename`**: Renames a file.
+
+These functions cover a wide range of functionality for file handling and standard input/output operations in C.
+
+## List of functions present in string.h header file
+
+The `string.h` header file in C provides functions for manipulating and handling null-terminated strings and memory blocks. Here's a list of the functions commonly found in `string.h`:
+
+### String Manipulation Functions
+- **`strcpy`**: Copies one string to another.
+- **`strncpy`**: Copies a specified number of characters from one string to another.
+- **`strcat`**: Appends one string to the end of another.
+- **`strncat`**: Appends a specified number of characters from one string to the end of another.
+
+### String Comparison Functions
+- **`strcmp`**: Compares two strings lexicographically.
+- **`strncmp`**: Compares a specified number of characters from two strings.
+- **`strcoll`**: Compares two strings using the current locale.
+- **`strcasecmp`**: Compares two strings case-insensitively (non-standard, but common in some implementations).
+
+### String Search and Tokenization Functions
+- **`strchr`**: Finds the first occurrence of a character in a string.
+- **`strrchr`**: Finds the last occurrence of a character in a string.
+- **`strstr`**: Finds the first occurrence of a substring in a string.
+- **`strtok`**: Tokenizes a string (splits it into tokens based on delimiters).
+- **`strpbrk`**: Finds the first occurrence of any character from one string in another string.
+- **`strspn`**: Gets the length of the initial segment of a string containing only specified characters.
+- **`strcspn`**: Gets the length of the initial segment of a string containing none of the specified characters.
+
+### String Length and Duplication Functions
+- **`strlen`**: Calculates the length of a string.
+- **`strdup`**: Duplicates a string (non-standard, but commonly available).
+
+### String Conversion Functions
+- **`strerror`**: Returns a pointer to a string describing an error code.
+
+### Memory Manipulation Functions
+- **`memcpy`**: Copies a block of memory from one location to another.
+- **`memmove`**: Copies a block of memory, allowing for overlapping memory areas.
+- **`memset`**: Sets a block of memory to a specified value.
+- **`memcmp`**: Compares two blocks of memory.
+- **`memchr`**: Finds the first occurrence of a character in a block of memory.
+
+These functions provide a wide range of tools for working with strings and memory, essential for C programming.
