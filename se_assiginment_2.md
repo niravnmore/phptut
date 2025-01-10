@@ -648,7 +648,7 @@ main(){
 
 ```c
 #include<stdio.h>
-// Write a C program that stores 5 integers in a one-dimensional array and prints them. 
+// Write a C program that stores 5 integers in a one-dimensional array and prints them.
 // Extend this to handle a two-dimensional array (3x3 matrix) and calculate the sum of all elements.
 int main(){
 	int ar1[5];
@@ -702,7 +702,7 @@ int main(){
 ```c
 #include <stdio.h>
 int main() {
-	//Write a C program to demonstrate pointer usage. 
+	//Write a C program to demonstrate pointer usage.
 	//Use a pointer to modify the value of a variable and print the result.
     int num = 21;
     int *ptr = &num;
@@ -725,6 +725,7 @@ int main() {
 ### LE-11
 
 > Write a C program that takes two strings from the user and concatenates them using strcat(). Display the concatenated string and its length using strlen().
+
 ```c
 #include <stdio.h>
 #include <string.h> // header file for managing strings
@@ -733,16 +734,16 @@ int main() {
 
     // Declare strings
     char st1[20], st2[20], res[50];
-    
+
     //get strings
     printf("Enter a string :");
     fgets(st1, sizeof(st1), stdin); // Read string
     st1[strcspn(st1, "\n")] = '\0'; // remove newline character
-	
+
 	printf("\nEnter another string :");
     fgets(st2, sizeof(st2), stdin);
     st2[strcspn(st2, "\n")] = '\0';
-    
+
     strcpy(res, st1); // copy string in new variable
     strcat(res, st2); // Concatenate strings
     printf("\n%s", res); // print string
@@ -855,9 +856,10 @@ EXTRA LAB EXERCISES FOR IMPROVING PROGRAMMING LOGIC
 ### ELE-01
 
 1: Simple Calculator
->Write a C program that acts as a simple calculator. The program should take two numbers and an operator as input from the user and perform the respective operation (addition, subtraction, multiplication, division, or modulus) using operators.
 
->Extend the program to handle invalid operator inputs.
+> Write a C program that acts as a simple calculator. The program should take two numbers and an operator as input from the user and perform the respective operation (addition, subtraction, multiplication, division, or modulus) using operators.
+
+> Extend the program to handle invalid operator inputs.
 
 ```c
 #include<stdio.h>
@@ -866,14 +868,14 @@ int main(){
 	// declare variables
 	int nu1, nu2;
 	char operation;
-	
+
 	// Get input values and operator
 	printf("Please enter first number : ");
 	scanf("%d", &nu1);
-	
-	printf("\nPlease select any one operator(+,-,*,/,%%): ");	
+
+	printf("\nPlease select any one operator(+,-,*,/,%%): ");
 	scanf(" %c", &operation);
-	
+
 	printf("\nPlease enter second number : ");
 	scanf("%d", &nu2);
 
@@ -905,18 +907,19 @@ int main(){
 			}
 		default:
 			printf("Selected operator is invalid.\n");
-	}	
+	}
 }
 ```
 
 ### ELE-02
 
-Check Number Properties  
+Check Number Properties
+
 ```
 Write a C program that takes an integer from the user and checks the following using different operators:
-    - Whether the number is even or odd.  
-    - Whether the number is positive, negative, or zero.  
-    - Whether the number is a multiple of both 3 and 5.  
+    - Whether the number is even or odd.
+    - Whether the number is positive, negative, or zero.
+    - Whether the number is a multiple of both 3 and 5.
 ```
 
 ```c
@@ -972,6 +975,7 @@ int main()
 ```
 
 ## 2. Control Statements
+
 ### ELE-03 : Grade Calculator
 
 ```
@@ -980,7 +984,7 @@ o Marks > 90: Grade A
 o Marks > 75 and <= 90: Grade B
 o Marks > 50 and <= 75: Grade C
 o Marks <= 50: Grade D
-Use if-else or switch statements for the decision-making process.  
+Use if-else or switch statements for the decision-making process.
 ```
 
 ```c
@@ -1025,8 +1029,9 @@ int main()
 Write a C program that takes three numbers from the user and determines:
 o The largest number. o The smallest number.
 
-Challenge: Solve the problem using both if-else and switch-case statements.  
+Challenge: Solve the problem using both if-else and switch-case statements.
 ```
+
 #### if-else statement
 
 ```c
@@ -1166,7 +1171,7 @@ int main()
 ### ELE-05 : Prime Number Check
 
 ```
-Write a C program that checks whether a given number is a prime number or not using a for loop.  
+Write a C program that checks whether a given number is a prime number or not using a for loop.
 
 Challenge: Modify the program to print all prime numbers between 1 and a given number.
 ```
@@ -1190,16 +1195,16 @@ bool isPrime(int n){
 int main(){
 	int myNumber;
 	int j=0;
-	
+
 	printf("Please enter a number : ");
 	scanf("%d", &myNumber);
-	
+
 	if(isPrime(myNumber)){
 		printf("%d is a prime number.\n", myNumber);
 	} else {
 		printf("%d is not a prime number.\n", myNumber);
 	}
-	
+
 	printf("Prime numbers between 1 and %d :\n", myNumber);
 	for (int i=2; i<= myNumber; i++){
 		if (isPrime(i)) {
@@ -1214,10 +1219,10 @@ int main(){
 }
 ```
 
-### ELE-06 : Multiplication Table  
+### ELE-06 : Multiplication Table
 
 ```
-Write a C program that takes an integer input from the user and prints its multiplication table using a for loop.  
+Write a C program that takes an integer input from the user and prints its multiplication table using a for loop.
 
 Challenge: Allow the user to input the range of the multiplication table (e.g., from 1 to N ).
 ```
@@ -1245,16 +1250,16 @@ int main() {
 ### ELE-07 : Sum of Digits
 
 ```
-Write a C program that takes an integer from the user and calculates the sum of its digits using a while loop.  
+Write a C program that takes an integer from the user and calculates the sum of its digits using a while loop.
 
-Challenge: Extend the program to reverse the digits of the number.  
+Challenge: Extend the program to reverse the digits of the number.
 ```
 
 ```c
 #include <stdio.h>
 
 int main() {
-	
+
 	int num, sum = 0, remainder;
 	printf("Enter an integer: ");
 	scanf("%d", &num); // 1234
@@ -1285,7 +1290,7 @@ int main() {
 ### ELE-08 : Maximum and Minimum in Array
 
 ```
-Write a C program that accepts 10 integers from the user and stores themin an array. Theprogram should then find and print the maximum and minimum values in the array.  
+Write a C program that accepts 10 integers from the user and stores themin an array. Theprogram should then find and print the maximum and minimum values in the array.
 
 Challenge: Extend the program to sort the array in ascending order.
 ```
@@ -1294,10 +1299,10 @@ Challenge: Extend the program to sort the array in ascending order.
 #include <stdio.h>
 
 int main() {
-	// Write a C program that accepts 10 integers from the user and 
-	// stores them in an array. 
+	// Write a C program that accepts 10 integers from the user and
+	// stores them in an array.
 	// The program should then find and print the maximum and minimum values
-	// in the array. 
+	// in the array.
 	// Challenge: Extend the program to sort the array in ascending order.
 
 	int arr[10];
@@ -1306,7 +1311,7 @@ int main() {
 	for (i = 0; i < 10; i++) {
 		scanf("%d", &arr[i]);
 	}
-	max = arr[0]; 
+	max = arr[0];
 	min = arr[0];
 	for (i = 1; i < 10; i++) {
 		if (arr[i] > max) { // find max
@@ -1340,14 +1345,14 @@ int main() {
 ### ELE-09 : Matrix Addition & Multiplication
 
 ```
-Write a C program that accepts two 2x2 matrices from the user and adds them. Display the resultant matrix. 
+Write a C program that accepts two 2x2 matrices from the user and adds them. Display the resultant matrix.
 ```
 
 ```c
 #include <stdio.h>
 
 int main() {
-	
+
 	int a[2][2], b[2][2], c[2][2], d[2][2];
 	int i, j;
 
@@ -1387,7 +1392,7 @@ int main() {
 			c[i][j] = a[i][j] + b[i][j];
 		}
 	}
-	
+
 	// print the resultant matrix
 	printf("The resultant matrix is: \n");
 	for (i = 0; i < 2; i++) {
@@ -1424,7 +1429,7 @@ Challenge: Extend the program to work with 3x3 matrices and matrix multiplicatio
 #include <stdio.h>
 
 int main() {
-	
+
 	int a[3][3], b[3][3], c[3][3], d[3][3];
 	int i, j, k;
 
@@ -1514,7 +1519,7 @@ Challenge: Modify the program to also find the average of the numbers.
 #include <stdio.h>
 
 int main() {
-    
+
     int n[100], i, sum = 0;
 	float avg;
 
@@ -1540,7 +1545,7 @@ int main() {
 	// print average
 	avg = (float)sum / i;
 	printf("Average: %.2f\n", avg);
-	
+
 	return 0;
 }
 ```
@@ -1550,7 +1555,7 @@ int main() {
 ### ELE-11 : Fibonacci Sequence
 
 ```
-Write a C program that generates the Fibonacci sequence up to N terms using a recursive function.  
+Write a C program that generates the Fibonacci sequence up to N terms using a recursive function.
 
 Challenge: Modify the program to calculate the Nth Fibonacci number using both iterative and recursive methods. Compare their efficiency.
 ```
@@ -1566,7 +1571,7 @@ int fib(int n) {
 }
 
 int main() {
-	
+
 	int n, i;
 	printf("Enter the number of terms: ");
 	scanf("%d", &n);
@@ -1592,7 +1597,7 @@ int main() {
 
 	// recursive method
 	printf("Nth Fibonacci number using recursive method: %d\n", fib(n - 1));
-	
+
 	return 0;
 }
 ```
@@ -1627,7 +1632,7 @@ int factorial_recursive(int n){
 
 int main() {
 
-	
+
 	int n;
 	printf("Enter a number: ");
 	scanf("%d", &n);
@@ -1640,7 +1645,7 @@ int main() {
 
 	// Performance comparison
 	// The recursive version is slower than the iterative version because it has to make a function call for each recursive call.
-	
+
 	return 0;
 }
 ```
@@ -1649,14 +1654,14 @@ int main() {
 
 ```
 Write a C program that takes a number as input and checks whether it is a palindrome using a function.
-Challenge: Modify the program to check if a given string is a palindrome. 
+Challenge: Modify the program to check if a given string is a palindrome.
 ```
 
 ```c
 #include <stdio.h>
 
 int main() {
-	
+
 	int num, reversedNum = 0, remainder, originalNum;
 	printf("Enter an integer: ");
 	scanf("%d", &num);
@@ -1697,12 +1702,13 @@ int main() {
 		printf("%s is not a palindrome.\n", str);
 	else
 		printf("%s is a palindrome.\n", str);
-	
+
 	return 0;
 }
 ```
 
 ## 6. Strings
+
 ### ELE-14 : String Reversal
 
 ```
@@ -1713,13 +1719,13 @@ Write a C program that takes a string as input and reverses it using a function.
 
 ```
 
- LAB EXERCISE 2: Count Vowels and Consonants
+LAB EXERCISE 2: Count Vowels and Consonants
  Write a C program that takes a string from the user and counts the number of vowels and consonants in the string.  Challenge: Extend the program to also count digits and special characters. LAB EXERCISE 3: Word Count
  Write a C program that counts the number of words in a sentence entered by the user.  Challenge: Modify the program to find the longest word in the sentence. Extra Logic Building Challenges
 Lab Challenge 1: Armstrong Number
  Write a C program that checks whether a given number is an Armstrong number or not (e.g., 153 = 1^3 + 5^3 + 3^3).  Challenge: Write a program to find all Armstrong numbers between 1 and 1000. Lab Challenge 2: Pascal’s Triangle
  Write a C program that generates Pascal’s Triangle up to N rows using loops.  Challenge: Implement the same program using a recursive function. Lab Challenge 3: Number Guessing Game
- Write a C program that implements a simple number guessing game. The programshouldgenerate a random number between 1 and 100, and the user should guess the number
+ Write a C program that implements a simple number guessing game. The program should generate a random number between 1 and 100, and the user should guess the number
 within a limited number of attempts.
 11
 TOPS Technologies 2024
